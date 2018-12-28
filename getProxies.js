@@ -1,7 +1,7 @@
 const ProxyLists = require('proxy-lists');
 const fs = require('fs');
 
-const options = {sourceOptions:{bitproxies:{apiKey:"zYGqri6l6Q88SNATaOKH8hUIQLhnhb9K"}}}
+const options = {}//
 
 const proxiesList = []
 const gettingProxies = ProxyLists.getProxies();
