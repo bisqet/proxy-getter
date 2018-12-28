@@ -1,0 +1,29 @@
+{
+  "name": "proxy-lists-to-json",
+  "version": "1.0.0",
+  "description": "Tool which use proxy-lists and set results in .json file.",
+  "main": "getProxies.js",
+  "dependencies": {
+    "proxy-lists": "^1.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node getProxies.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bisqet/proxy-lists-to-json.git"
+  },
+  "keywords": [
+    "get",
+    "proxy",
+    "proxy-lists"
+  ],
+  "author": "David Lukava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bisqet/proxy-lists-to-json/issues"
+  },
+  "homepage": "https://github.com/bisqet/proxy-lists-to-json#readme"
+}

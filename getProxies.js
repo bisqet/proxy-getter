@@ -7,7 +7,7 @@ const proxiesList = []
 const gettingProxies = ProxyLists.getProxies();
  
 gettingProxies.on('data', function(proxies) {
-	fs.appendFileSync('./proxylist', JSON.stringify(proxies) ,'utf8')
+	fs.appendFileSync('./proxieslist.json', JSON.stringify(proxies) ,'utf8')
 });
 gettingProxies.on('error', function(error) {
     // Some error has occurred.
